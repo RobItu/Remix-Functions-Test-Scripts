@@ -34,7 +34,8 @@ You'll need:
   <img src="https://github.com/user-attachments/assets/a2dad73a-b044-400f-b543-fea5b66a8558" width="45%">
 </p>
 
-3.Deploy FunctionsConsumer.sol contract (note the address)
+
+3. Deploy FunctionsConsumer.sol contract (note the address)
 4. Create Contracts and Scripts folder
 5. Inside Contracts, create a ```FunctionsConsumers.sol``` contract, the same found in [functionsConsumer.sol](https://github.com/RobItu/Remix-Functions-Test-Scripts/blob/main/functionsConsumer.sol)
 6. Inside Scripts folder, create and copy all scripts found this repo.
