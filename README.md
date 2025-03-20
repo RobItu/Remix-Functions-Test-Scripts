@@ -39,4 +39,11 @@ You'll need:
 5. Inside Scripts folder, create and copy all scripts found this repo.
 6. Make sure to fill out all required variables (```PRIVATE KEY```, ```RPC_URL```, ```GPT_API_KEY```)
 7. You can run each script by right clicking on it and hitting "run" or click on the green arrow button.
+8. You can check your Functions subscription [here](https://www.functions.chain.link)
+
+## Additional Resources
+* [Remix Documentation](https://remix-ide.readthedocs.io/en/latest/)
+* [Remix Documentation on Scripts](https://remix-ide.readthedocs.io/en/latest/running_js_scripts.html)
+* [Functions Playground](functions.chain.link/playground)
+
 
