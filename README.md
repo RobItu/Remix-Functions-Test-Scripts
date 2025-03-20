@@ -3,8 +3,8 @@
   <img src="https://github.com/user-attachments/assets/ab233b7c-6231-4a23-bf3f-609c56715e30" width="20%">
 </p>
 
-# Testing scripts for Chainlink Functions Toolkit on Remix
-These scripts import [@chainlink/function-toolkit](https://www.npmjs.com/package/@chainlink/functions-toolkit) using ```require``` functions in Remix to perform the expected functionality of:
+# Testing Scripts for Chainlink Functions Toolkit on Remix
+These scripts import [@chainlink/function-toolkit](https://www.npmjs.com/package/@chainlink/functions-toolkit) using ```require``` functions in Remix to perform:
 * Create Subscription
 * Fund Subscription
 * Add Consumer to Subscription
