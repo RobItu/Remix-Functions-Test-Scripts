@@ -1,6 +1,16 @@
 const { Contract, Wallet, providers, ethers  } = require("ethers");
 const { Location } = require("@chainlink/functions-toolkit");
 
+const RPC_URL = ""; // CHANGE THIS
+const PRIVATE_KEY = ""// CHANGE THIS
+
+//SubscriptionId obtained from subscriptionManager.js
+//encryptedSecretsRef obtained from encryptSecrets.js
+const consumerAddress = "";// CHANGE THIS
+const subscriptionId = "";// CHANGE THIS
+const encryptedSecretsRef = "";// CHANGE THIS
+
+
 //ABI of functionsConsumer contract. 
 const abi= [		{
 			"inputs": [
@@ -268,14 +278,6 @@ const abi= [		{
 		}
 	]
 
-const RPC_URL = "";
-const PRIVATE_KEY = ""
-
-//SubscriptionId obtained from subscriptionManager.js
-//encryptedSecretsRef obtained from encryptSecrets.js
-const consumerAddress = "";
-const subscriptionId = "";
-const encryptedSecretsRef = "";
 
 //Create Wallet
 const provider = new providers.JsonRpcProvider(RPC_URL);
