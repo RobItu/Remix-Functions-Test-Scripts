@@ -34,12 +34,13 @@ You'll need:
   <img src="https://github.com/user-attachments/assets/a2dad73a-b044-400f-b543-fea5b66a8558" width="45%">
 </p>
 
-3. Create Contracts and Scripts folder
-4. Inside Contracts, create a ```FunctionsConsumers.sol``` contract, the same found in [functionsConsumer.sol](https://github.com/RobItu/Remix-Functions-Test-Scripts/blob/main/functionsConsumer.sol)
-5. Inside Scripts folder, create and copy all scripts found this repo.
-6. Make sure to fill out all required variables (```PRIVATE KEY```, ```RPC_URL```, ```GPT_API_KEY```)
-7. You can run each script by right clicking on it and hitting "run" or click on the green arrow button.
-8. You can check your Functions subscription [here](https://www.functions.chain.link)
+3.Deploy FunctionsConsumer.sol contract (note the address)
+4. Create Contracts and Scripts folder
+5. Inside Contracts, create a ```FunctionsConsumers.sol``` contract, the same found in [functionsConsumer.sol](https://github.com/RobItu/Remix-Functions-Test-Scripts/blob/main/functionsConsumer.sol)
+6. Inside Scripts folder, create and copy all scripts found this repo.
+7. Make sure to fill out all required variables (```PRIVATE KEY```, ```RPC_URL```, ```GPT_API_KEY```)
+8. You can run each script by right clicking on it and hitting "run" or click on the green arrow button.
+9. You can check your Functions subscription [here](https://www.functions.chain.link)
 
 ## Additional Resources
 * [Remix Documentation](https://remix-ide.readthedocs.io/en/latest/)
