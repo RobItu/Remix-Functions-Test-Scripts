@@ -1,3 +1,5 @@
+//This script creates, funds and adds a consumer to Chainlink Function Subscription
+
 const { SubscriptionManager } = require("@chainlink/functions-toolkit");
 const { providers, Wallet, utils } = require("ethers");
 
