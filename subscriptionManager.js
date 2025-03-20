@@ -3,15 +3,15 @@
 const { SubscriptionManager } = require("@chainlink/functions-toolkit");
 const { providers, Wallet, utils } = require("ethers");
 
-const RPC_URL = "";
-const PRIVATE_KEY = "";
+const RPC_URL = ""; // CHANGE THIS
+const PRIVATE_KEY = "";// CHANGE THIS
 
 //linkTokenAddress can be obtained at https://docs.chain.link/resources/link-token-contracts and functionsRouterAddress at https://docs.chain.link/chainlink-functions/supported-networks
 //You must have a functionsConsumer contract deployed and its address known. 
-const functionsRouterAddress = "";
-const linkTokenAddress = "";
-const consumerAddress = "";
-const LINK_AMOUNT = "3.3";
+const functionsRouterAddress = "";// CHANGE THIS
+const linkTokenAddress = "";// CHANGE THIS
+const consumerAddress = "";// CHANGE THIS
+const LINK_AMOUNT = "5";
 
 //Creating Wallet
 if (!RPC_URL) {
