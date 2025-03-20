@@ -1,9 +1,9 @@
 const { decodeResult, ReturnType } = require("@chainlink/functions-toolkit");
 const { Contract, Wallet, providers  } = require("ethers");
 
-const RPC_URL = "";
-const PRIVATE_KEY = "";
-const consumerAddress = "";
+const RPC_URL = ""; //CHANGE THIS
+const PRIVATE_KEY = ""; //CHANGE THIS
+const consumerAddress = ""; //CHANGE THIS
 const abi= [		{
 			"inputs": [
 				{
