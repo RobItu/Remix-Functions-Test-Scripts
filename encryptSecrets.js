@@ -1,16 +1,15 @@
+//Currently await secretsManager.uploadEncryptedSecretsToDON is not working. 
 const { SecretsManager } = require("@chainlink/functions-toolkit");
 const { providers, Wallet } = require("ethers");
 
-const functionsRouterAddress = "0xb83E47C2bC239B3bf370bc41e1459A34b41238D0";
-const donId = "fun-ethereum-sepolia-1";
+const functionsRouterAddress = ""; //CHANGE THIS
+const donId = "fun-ethereum-sepolia-1"; //CHANGE THIS
 
-const RPC_URL = "";
-const PRIVATE_KEY = ""
-const GPT_API_KEY = ""
-const GATEWAY_URLS = [
-      "https://01.functions-gateway.testnet.chain.link/",
-      "https://02.functions-gateway.testnet.chain.link/",
-    ]
+const RPC_URL = ""; //CHANGE THIS
+const PRIVATE_KEY = "" //CHANGE THIS
+const GPT_API_KEY = "" //CHANGE THIS
+const GATEWAY_URLS = ["",""] //CHANGE THIS
+
 const provider = new providers.JsonRpcProvider(RPC_URL);
 const wallet = new Wallet(PRIVATE_KEY || "UNSET");
 const signer = wallet.connect(provider);
