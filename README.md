@@ -5,15 +5,15 @@
 
 # Testing Scripts for Chainlink Functions Toolkit on Remix
 These scripts import [@chainlink/function-toolkit](https://www.npmjs.com/package/@chainlink/functions-toolkit) using ```require``` functions in Remix to perform:
-* Create Subscription
-* Fund Subscription
-* Add Consumer to Subscription
-* Make Functions API Request
-* Read Response from Functions Consumer Contract
-* Customize Transaction
+* Create Subscription (```subscriptionManager.js```)
+* Fund Subscription (```subscriptionManager.js```)
+* Add Consumer to Subscription (```subscriptionManager.js```)
+* Make Functions API Request (```sendRequest.js```)
+* Read Response from Functions Consumer Contract (```readResponse.js```)
+* Customize Transaction (```sendRequest.js```)
 
 ### Known Bugs
-Currently, DON hosted secrets cannot be uploaded using Remix. I suspect this is due to network limitation Remix imposes on scripts that are trying to create networks requests. 
+Currently, DON hosted secrets cannot be uploaded using Remix (```encryptSecrets.js```). I suspect this is due to network limitation Remix imposes on scripts that are trying to create networks requests. 
 
 # Getting Started
 You'll need: 
