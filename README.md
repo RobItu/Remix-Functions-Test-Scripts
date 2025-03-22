@@ -13,7 +13,7 @@ These scripts import [@chainlink/function-toolkit](https://www.npmjs.com/package
 * Customize Transaction (```sendRequest.js```)
 
 ### Known Bugs
-Currently, DON hosted secrets cannot be uploaded using Remix (```encryptSecrets.js```). I suspect this is due to network limitation Remix imposes on scripts that are trying to create networks requests. 
+Currently, DON hosted secrets cannot be uploaded using Remix (```encryptSecrets.js```). This due to Remix missing CORS headers when communicating with Chainlink's DON.
 
 # Getting Started
 You'll need: 
